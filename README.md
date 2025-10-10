@@ -1,12 +1,12 @@
-# 🐄 CeloPredictor: Machine Learning for Postpartum Heat Detection in Dairy Cows
+#  CeloPredictor: Machine Learning for Postpartum Heat Detection in Dairy Cows
 
 *Sistema informático de apoyo a la eficiencia reproductiva en vacas lecheras mediante inteligencia artificial*
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 
 **CeloPredictor** es una aplicación de escritorio desarrollada como trabajo de diploma que utiliza técnicas de inteligencia artificial para predecir la presentación de celo posparto en vacas lecheras. La solución está específicamente adaptada a las condiciones tecnológicas y productivas de la ganadería cubana, con énfasis en la provincia de Camagüey.
 
-## 🎯 Características Principales
+##  Características Principales
 
 - ✅ **Modelo Predictivo Avanzado**: Random Forest con F1-Score de 0.85 ± 0.02
 - ✅ **Arquitectura Full-Stack**: Django REST API + React Frontend + Electron Desktop
@@ -15,7 +15,7 @@
 - ✅ **Interfaz Intuitiva**: Diseñada para productores ganaderos con diversa experiencia tecnológica
 - ✅ **Validación Estadística Rigurosa**: Pruebas de Friedman, Nemenyi y Wilcoxon
 
-## 🏆 Resultados del Modelo
+##  Resultados del Modelo
 
 | Métrica | Valor | Descripción |
 |---------|-------|-------------|
@@ -25,7 +25,7 @@
 | **Sensibilidad** | 89% | Detección de celos reales |
 | **Especificidad** | 84% | Identificación de ausencia de celo |
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 ### **Backend & API**
 - **Python 3.11** - Lenguaje principal
@@ -45,7 +45,7 @@
 - **SVM** - Comparación (F1-Score: 0.82)
 - **Regresión Logística** - Baseline (F1-Score: 0.78)
 
-## 📊 Dataset y Metodología
+##  Dataset y Metodología
 
 ### **Estructura del Dataset Sintético**
 - **2,000 registros** de ciclos reproductivos
@@ -60,39 +60,13 @@
 4. **Validación cruzada estratificada** (5-folds)
 5. **Pruebas estadísticas** (Friedman, Nemenyi, Wilcoxon)
 
-## 🚀 Instalación y Uso
+##  Instalación y Uso
 
 ### **Prerrequisitos**
 - Python 3.11
 - Node.js 16+
-- npm
 
-### **Ejecución de la Aplicación**
-
-```bash
-# Backend Django
-cd backend
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-
-# Frontend React
-cd frontend
-npm install
-npm start
-
-# Versión Desktop
-npm run electron:dev
-```
-
-### **Entrenamiento del Modelo**
-```bash
-cd ml_model
-python train_model.py
-python evaluate_model.py
-```
-
-## 🏗️ Arquitectura del Sistema
+##  Arquitectura del Sistema
 
 ```
 CeloPredictor/
@@ -100,7 +74,6 @@ CeloPredictor/
 ├── 🚀 backend/            # Django REST API
 ├── 💻 frontend/           # React Application
 ├── 🖥️ electron/           # Configuración Desktop
-└── 📚 docs/              # Documentación
 ```
 
 ### **Patrones de Diseño**
@@ -109,8 +82,7 @@ CeloPredictor/
 - **Singleton** para gestión de recursos
 - **Fachada** para simplificación de API
 
-## 📈 Funcionalidades Principales
-
+## Funcionalidades Principales
 ### **Gestión de Usuarios**
 - Autenticación y autorización por roles
 - CRUD completo de usuarios (Admin/Productor)
@@ -146,7 +118,7 @@ CeloPredictor/
 | SVM | 0.82 | 0.88 | 84% |
 | Regresión Logística | 0.78 | 0.89 | 85% |
 
-## 🌍 Contexto y Aplicación
+##  Contexto y Aplicación
 
 ### **Problema Resuelto**
 - **Detección tradicional**: ≤65% de eficiencia
@@ -159,7 +131,7 @@ CeloPredictor/
 - ✅ Optimización de inseminación artificial
 - ✅ Modernización de la ganadería camagüeyana
 
-## 🔮 Roadmap Futuro
+##  Roadmap Futuro
 
 - [ ] Integración con sensores IoT de bajo costo
 - [ ] Aplicación móvil complementaria
@@ -167,17 +139,17 @@ CeloPredictor/
 - [ ] Análisis predictivo avanzado
 - [ ] Plataforma web para cooperativas
 
-## 👨‍💻 Autor
+##  Autor
 
 **Fernando Javier García Estrada**  
 *Trabajo de Diploma - Universidad de Camagüey "Ignacio Agramonte y Loynaz"*
 
 ### **Contacto**
-- 📧 Email: fernandojavierge@gmail.com
+-  Email: fernandojavierge@gmail.com
 
 ---
 
-**⭐ Si este proyecto te resulta útil para tu investigación o desarrollo, por favor considera darle una estrella en GitHub!**
+** Si este proyecto te resulta útil para tu investigación o desarrollo, por favor considera darle una estrella en GitHub!**
 
 ---
 *Desarrollado con Python 3.11, Django, React y Electron - 2025*  
